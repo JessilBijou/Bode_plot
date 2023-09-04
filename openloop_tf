@@ -1,0 +1,14 @@
+clc;
+clear all;
+close all;
+% initialzations
+k=input('enter the gain---->');
+z=input('enter the zeros---->');
+p=input('enter the ploes---->');
+t=zpk(z,p,k);
+bode(t);
+[Gm,Pm,Wcg,Wcp]=margin(t);
+disp(Gm);
+disp(Pm);
+disp(Wgc);
+disp(Wpc);
