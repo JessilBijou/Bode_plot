@@ -1,0 +1,4 @@
+The gain margin is defined as the change in open loop gain required to make the system unstable. Systems with greater gain margins can withstand greater changes in system parameters before becoming unstable in closed loop. Keep in mind that unity gain in magnitude is equal to a gain of zero in dB.  
+The phase margin is defined as the change in open loop phase shift required to make a closed loop system unstable.
+​The phase margin is the difference in phase between the phase curve and -180 deg at the point corresponding to the frequency that gives us a gain of 0dB (the gain cross over frequency, Wgc).  
+Likewise, the gain margin is the difference between the magnitude curve and 0dB at the point corresponding to the frequency that gives us a phase of -180 deg (the phase cross over frequency, Wpc).
