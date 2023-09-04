@@ -1,0 +1,5 @@
+PROCEDURE:
+1. Input the zeroes, poles and gain of the given system.
+2. Formulate the transfer function from zeroes, poles and gain of the system.
+3. Plot the bode plot using function bode (t).
+4. Estimate PM,GM, WPC , and WGC. Using function margin.
